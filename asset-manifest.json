@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SFBD/static/css/main.e8975d1a.css",
+    "main.js": "/SFBD/static/js/main.eff8cb04.js",
+    "static/media/apollo.png": "/SFBD/static/media/apollo.3e1fda729b5a1040d5c7.png",
+    "static/media/puppypic-1.jpg": "/SFBD/static/media/puppypic-1.4afb21809379404077d6.jpg",
+    "static/media/puppypic-2.jpg": "/SFBD/static/media/puppypic-2.9742651f38f54c867fcd.jpg",
+    "static/media/puppypic-5.jpg": "/SFBD/static/media/puppypic-5.cf385eda7a2e52133a5f.jpg",
+    "static/media/puppypic-6.jpg": "/SFBD/static/media/puppypic-6.29bf62b0fe7682b61db9.jpg",
+    "static/media/puppypic-cam.jpg": "/SFBD/static/media/puppypic-cam.83023b03a4f42cd86965.jpg",
+    "static/media/puppypic-3.jpg": "/SFBD/static/media/puppypic-3.5bf4f8f6b2c827010610.jpg",
+    "static/media/puppypic-4.jpg": "/SFBD/static/media/puppypic-4.9206fe739ae1a6fc578b.jpg",
+    "static/media/about-us-pic.jpg": "/SFBD/static/media/about-us-pic.15a491ed4310491e12d4.jpg",
+    "static/media/black-instagram-logo-04.png": "/SFBD/static/media/black-instagram-logo-04.d70a09cf05002177face.png",
+    "static/media/sfbd-logo.png": "/SFBD/static/media/sfbd-logo.62a437db66da6e47ce26.png",
+    "static/media/tiktok-logo.png": "/SFBD/static/media/tiktok-logo.2ddb9d5a03a3fd5c4421.png",
+    "index.html": "/SFBD/index.html",
+    "main.e8975d1a.css.map": "/SFBD/static/css/main.e8975d1a.css.map",
+    "main.eff8cb04.js.map": "/SFBD/static/js/main.eff8cb04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8975d1a.css",
+    "static/js/main.eff8cb04.js"
+  ]
+}
