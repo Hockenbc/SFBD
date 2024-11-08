@@ -1,0 +1,24 @@
+#footer {
+    background: #374c79;
+    height: 45px;
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  #footer-copy {
+    position: relative;
+    text-align: center;
+    top: -0%;
+    flex-grow: 1;
+  }
+  
+  #logo2 {
+    width: 100px;
+    position: relative;
+    margin-left: 1px;
+  }

@@ -1,0 +1,43 @@
+#about-us {
+    text-align: center;
+    padding: 10px;
+}
+  
+#img {
+    position: relative;
+    text-align: center;
+}
+  
+#about-us-info {
+    justify-content: center;
+    width: 60%;
+    margin-left: 14%;
+    padding: 30px;
+    font-size: 20px;
+}
+  
+#about-us-info p {
+    line-height: 1.8;
+}
+  
+#about-us-info h3 {
+    margin-top: 20px;
+}
+  
+hr {
+    width: 80%;
+}
+
+h2{
+    text-align: left;
+}
+
+h1{
+    font-size: 34px;
+}
+
+@media only screen and (min-width: 600px) {
+    #about-us-info {
+      margin-left: 18%;
+    }
+}
