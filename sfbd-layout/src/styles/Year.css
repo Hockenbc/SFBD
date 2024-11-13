@@ -1,0 +1,42 @@
+#year {
+    font-size: 20px;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+}
+  
+#row-1, #row-2 {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+  
+.columns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+  
+img {
+    width: 100%;
+    max-width: 290px;
+    height: auto;
+}
+  
+@media only screen and (min-width: 600px) {
+
+#slide-1{
+    margin-left: 40%;
+}    
+.columns {
+    display: flex;
+}
+
+.one {
+      flex: 1;
+      margin: 10px;
+    }
+}
+  

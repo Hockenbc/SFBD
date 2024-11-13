@@ -27,12 +27,12 @@
 }
 
 #info h1 {
-    font-size: 35px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
 #info p {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.8;
 }
 
@@ -58,4 +58,19 @@
 #socials img {
     width: 80px;
     height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+   
+    #info h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    
+    #info p {
+        font-size: 20px;
+        line-height: 1.8;
+    }
+   
+
 }
