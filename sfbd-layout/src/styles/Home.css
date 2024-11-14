@@ -21,9 +21,10 @@
 }
 
 #info {
-    flex: 1;  /* Left column for info */
-    margin-right: 20px;
-    padding-left: 20px;
+    flex: 1;  
+    margin-right: 50px;
+    padding-left: 70px;
+    
 }
 
 #info h1 {
@@ -37,7 +38,7 @@
 }
 
 #socials {
-    flex: 0.5;  /* Right column for socials */
+    flex: 0.5; 
     text-align: center;
 }
 
@@ -58,6 +59,9 @@
 #socials img {
     width: 80px;
     height: auto;
+}
+#homehr{
+    width: 100%;
 }
 
 @media only screen and (min-width: 600px) {

@@ -19,7 +19,7 @@ const MainInfo = () => {
         <aside id="main-info-socials">
             <section id="info" className="left">
                 <h1>South Fort Blue Danes</h1>
-                <hr />
+                <hr id="homehr" />
                 <h2>Our Kennel</h2>
                 <p>
                     As longtime lovers of Great Danes and retired Veterans, we devote our time, energy, 

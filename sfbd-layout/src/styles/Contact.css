@@ -1,0 +1,42 @@
+#contact-us{
+    border: 2px solid grey;
+    border-radius: 2px;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    margin-bottom: 10px;
+}
+#contact-header{
+    text-align: center;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#youtube{
+    padding: 5px;
+    max-width: 100%;
+    width: 40%;
+    margin: 0 2%;
+}
+
+form label{
+    font-size: 1em;
+    display: block;
+}
+
+@media only screen and (min-width:600px){
+
+    form{
+        margin-left: 40px;
+    }  
+
+    #contact-us{
+        width: 40%;
+        left: 30%;
+    }
+
+}

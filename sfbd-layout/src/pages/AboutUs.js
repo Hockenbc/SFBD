@@ -1,5 +1,6 @@
 import "../styles/AboutUs.css";
 import puppyImage from "../images/puppypic-cam.jpg";
+import Contact from "../components/Contact";
 
 
 const AboutUs = () => {
@@ -41,6 +42,9 @@ const AboutUs = () => {
               Great Dane line and their forever families!
             </p>
           </div>
+
+          <Contact />
+          
         </div>
       );
     };
