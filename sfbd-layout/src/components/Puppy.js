@@ -1,20 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import axios from "axios";
 import '../styles/Puppy.css';
 
     const Puppy = () => {
             const [puppies, setPuppies] = useState([]);
         
             useEffect(() => {
-                const fetchPuppies = async () => {
-                    try {
-                        const response = await fetch('https://Hockenbc.github.io/json/puppies.json');
-                        const data = await response.json();
-                        setPuppies(data);
-                    } catch (error) {
-                        console.error('Error fetching puppies:', error);
-                    }
-                };
-                fetchPuppies();
+               (async () => {
+                    const response = await axios.get(
+                        "http://localhost:3001/api/puppies/"
+                    );
+                    setPuppies(response.data);
+               })();
             }, []);
         
             return (
@@ -37,7 +34,6 @@ import '../styles/Puppy.css';
                     ))}
                 </div>
             );
-        
         };
   
   export default Puppy;
