@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SFBD/static/css/main.e8975d1a.css",
-    "main.js": "/SFBD/static/js/main.eff8cb04.js",
+    "main.css": "/SFBD/static/css/main.1f883ce7.css",
+    "main.js": "/SFBD/static/js/main.16d3a78d.js",
     "static/media/apollo.png": "/SFBD/static/media/apollo.3e1fda729b5a1040d5c7.png",
     "static/media/puppypic-1.jpg": "/SFBD/static/media/puppypic-1.4afb21809379404077d6.jpg",
     "static/media/puppypic-2.jpg": "/SFBD/static/media/puppypic-2.9742651f38f54c867fcd.jpg",
@@ -15,11 +15,11 @@
     "static/media/sfbd-logo.png": "/SFBD/static/media/sfbd-logo.62a437db66da6e47ce26.png",
     "static/media/tiktok-logo.png": "/SFBD/static/media/tiktok-logo.2ddb9d5a03a3fd5c4421.png",
     "index.html": "/SFBD/index.html",
-    "main.e8975d1a.css.map": "/SFBD/static/css/main.e8975d1a.css.map",
-    "main.eff8cb04.js.map": "/SFBD/static/js/main.eff8cb04.js.map"
+    "main.1f883ce7.css.map": "/SFBD/static/css/main.1f883ce7.css.map",
+    "main.16d3a78d.js.map": "/SFBD/static/js/main.16d3a78d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8975d1a.css",
-    "static/js/main.eff8cb04.js"
+    "static/css/main.1f883ce7.css",
+    "static/js/main.16d3a78d.js"
   ]
 }
