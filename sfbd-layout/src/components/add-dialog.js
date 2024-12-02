@@ -16,14 +16,12 @@ const AddDialog = (props) => {
             body: formData,
         });
 
-        const responseData = await response.json().catch(() => null);
-
-        if (response.ok) {
+        if (response.status === 200) {
             event.target.reset();
-            props.addPuppy(responseData);
+            props.addPuppy(await response.json());
             props.closeDialog();
         } else {
-            console.log("Error Adding Puppy:", response, responseData);
+            console.log("Error Adding Puppy", response);
             setResult(response.message);
         }
     };
