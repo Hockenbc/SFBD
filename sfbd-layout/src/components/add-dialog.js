@@ -33,8 +33,8 @@ const AddDialog = (props) => {
     }
     const handleImageChange = (event) => {
         const name= event.target.name;
-        const file = event.target.files[0];
-        setInputs((values) => ({ ...values, [name]: file }));
+        const value = event.target.files[0];
+        setInputs((values) => ({ ...values, [name]: value }));
     }
 
     return (
