@@ -60,6 +60,14 @@
     height: 30px;
 }
 
+#change-buttons {
+    margin-bottom: -15px;
+}
+
+#change-buttons a {
+    text-decoration: none;
+}
+
 
 @media only screen and (min-width: 600px) {
    
