@@ -59,7 +59,7 @@ import DeleteDialog from './delete-dialog';
             };
 
             const openDeleteDialog = () => {
-                console.log("edit dialog");
+                console.log("delete dialog");
                 setShowDeleteDialog(true);
             };
             const closeDeleteDialog = () => {
